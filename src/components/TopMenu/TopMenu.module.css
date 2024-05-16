@@ -1,0 +1,104 @@
+.topMenu {
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+  
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.topMenuLogo {
+  
+  width: 220px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topMenuLogo p {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+
+.topMenuLogoIcon {
+  margin-top: 1px;
+  color: #106f01;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topMenuVector {
+  
+  background-color: #ececec;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #ececec;
+  color: #090909;
+}
+
+.navList {
+  
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 42%;
+  width: max-content;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  width: 187px;
+  padding: 13px 0;
+  color: #7c8db5;
+}
+
+.navItem p {
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navItem span {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  justify-content: space-between;
+  background-color: #106f01;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 17px;
+  border: 2px solid #106f01;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navListDown {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  
+  width: max-content;
+}
+
+.navListDownItem {
+  display: flex;
+  align-items: center;
+  padding: 13px 0;
+  color: #7c8db5;
+}
+
+.navListDownItem p {
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 16px;
+}

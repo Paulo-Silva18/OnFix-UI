@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O intuito desse projeto é de melhorar o sistema já existente no SGA de alocação de patrimônios e cadastro de colaboradores. O SGA não foi construído com esse intuito, por isso o desenvolvimento desse projeto é de facilitar as alocações e adicionar outros tipos de alocações por exemplo notebook.
