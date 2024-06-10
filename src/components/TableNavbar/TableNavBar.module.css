@@ -1,12 +1,12 @@
 .tableNavBar {
   display: flex;
   height: 100%;
-  width: 1060px;
+  width: 90%;
   font-family: "Poppins", sans-serif;
   color: black;
   align-items: center;
   flex-direction: row;
-  padding: 0px 0px 0px 100px;
+  padding: 0px 0px 0px 50px;
 }
 
 .tableNavBar1 {
