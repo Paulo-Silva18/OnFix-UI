@@ -42,19 +42,18 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
 table th,
 table td {
   font-weight: 500;
   font-size: 12px;
-  padding: 10px;
+  padding: 10px 20px;
   text-align: left;
-  width: 110px;
   vertical-align: middle;
 }
 
 .headerCell {
   text-align: left;
-  width: 120px;
 }
 
 .headerContent {
@@ -95,27 +94,6 @@ table td {
   align-items: center;
 }
 
-.rectangle_2 {
-  width: 15px;
-  height: 47px;
-  background-color: #ff9500;
-  margin-right: 10px;
-}
-
-.rectangle_3 {
-  width: 15px;
-  height: 47px;
-  background-color: #106f01;
-  margin-right: 10px;
-}
-
-.rectangle_4 {
-  width: 15px;
-  height: 47px;
-  background-color: #cd0000;
-  margin-right: 10px;
-}
-
 .data {
   font-size: 400;
   font-size: 12px;
@@ -135,22 +113,4 @@ table td {
 .aguardando {
   font-weight: 400;
   font-size: 12px;
-}
-
-.icon3 {
-  color: #FF9500;
-  width: 8px;
-  height: 8px;
-}
-
-.icon4 {
-  color: #106F01;
-  width: 8px;
-  height: 8px;
-}
-
-.icon5 {
-  color: #CD0000;
-  width: 8px;
-  height: 8px;
 }

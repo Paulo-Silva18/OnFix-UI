@@ -7,7 +7,7 @@ import styles from './TableNavBar.module.css';
 export function TableNavBar() {
   return (
     <div className={styles.tableNavBar}>
-      <div className={styles.tableNavBar1}>
+      <div className={styles.tableNavBarItem}>
         <div className={styles.uppNavBar}>
           <h1>5</h1>
           <div className={styles.iconUsers}>
@@ -21,42 +21,42 @@ export function TableNavBar() {
         </div>
       </div>
       <div className={styles.divider}></div>
-      <div className={styles.tableNavBar2}>
-        <div className={styles.uppNavBar2}>
+      <div className={styles.tableNavBarItem}>
+        <div className={styles.uppNavBar}>
           <h1>2</h1>
-          <div className={styles.iconUsers2}>
+          <div className={styles.iconUsers}>
             <BriefcaseBusiness />
           </div>
         </div>
-        <div className={styles.downDiv2}>
+        <div className={styles.downDiv}>
           <div>
             <p>Notebooks</p>
           </div>
         </div>
       </div>
       <div className={styles.divider}></div>
-      <div className={styles.tableNavBar3}>
-        <div className={styles.uppNavBar3}>
+      <div className={styles.tableNavBarItem}>
+        <div className={styles.uppNavBar}>
           <h1>6</h1>
-          <div className={styles.iconUsers3}>
+          <div className={styles.iconUsers}>
             <SquareCheckBig />
           </div>
         </div>
-        <div className={styles.downDiv3}>
+        <div className={styles.downDiv}>
           <div>
             <p>Equipamentos em manutenção</p>
           </div>
         </div>
       </div>
       <div className={styles.divider}></div>
-      <div className={styles.tableNavBar4}>
-        <div className={styles.uppNavBar4}>
+      <div className={styles.tableNavBarItem}>
+        <div className={styles.uppNavBar}>
           <h1>3</h1>
-          <div className={styles.iconUsers4}>
+          <div className={styles.iconUsers}>
             <Redo2 />
           </div>
         </div>
-        <div className={styles.downDiv4}>
+        <div className={styles.downDiv}>
           <div>
             <p>Aguardando retirada</p>
           </div>

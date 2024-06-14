@@ -1,8 +1,6 @@
 import React, { useState } from "react"
 import styles from "./Table.module.css"
-import { ArrowUpDown, ChevronDown } from "lucide-react"
-import { Circle } from "lucide-react"
-import { Ellipsis } from "lucide-react"
+import { ArrowUpDown, ChevronDown, Circle, Ellipsis } from "lucide-react"
 
 export function Table() {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" })
